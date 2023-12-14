@@ -1,0 +1,6 @@
+distlib==0.3.8
+docutils==0.20.1
+filelock==3.13.1
+platformdirs==4.1.0
+statistics==1.0.3.5
+virtualenv==20.25.0
