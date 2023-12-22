@@ -1,5 +1,6 @@
 from VKApi import *
 from YAApi import *
+from add_token import *
 import datetime
 import json
 import os
@@ -65,6 +66,8 @@ def info_json():
 
 token_vk = 'infoVK.txt'
 token_ya = 'info_ya.txt'
+add_tok_vk = add_token_vk()
+add_tok_ya = add_token_ya()
 vk_app = Vk_action(get_token(token_vk))
 logging.info(f'\nСловарь с названиями и ссылками на фотографии сформирован')
 ya_client = Ya_action(get_token(token_ya), input('Введите название папки: '))
